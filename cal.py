@@ -66,7 +66,7 @@ plus.grid(row=2, column=3)
 minus = Button(abc, text=' - ', fg='black', bg='white', command=lambda: press("-"), height=5, width=10)
 minus.grid(row=3, column=3)
 
- multiply = Button(abc, text=' * ', fg='black', bg='white', command=lambda: press("*"), height=5, width=10)
+multiply = Button(abc, text=' * ', fg='black', bg='white', command=lambda: press("*"), height=5, width=10)
 multiply.grid(row=4, column=3)
 
 divide = Button(abc, text=' / ', fg='black', bg='white', command=lambda: press("/"), height=5, width=10)
